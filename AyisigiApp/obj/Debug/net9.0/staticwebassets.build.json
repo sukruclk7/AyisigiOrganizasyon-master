@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "Rb2vZXSNVOUJJVeLcYqL/WVuMuP6RUz5n2r+5IEIDRE=",
+  "Hash": "iyeyVpfj3yq5c6H8ui8kH9VEEo8IBPlCQJNW+AGYkgc=",
   "Source": "AyisigiApp",
   "BasePath": "_content/AyisigiApp",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\Presentation\\Presentation.csproj",
+      "Version": 2,
+      "Source": "Presentation",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "AyisigiApp\\wwwroot",

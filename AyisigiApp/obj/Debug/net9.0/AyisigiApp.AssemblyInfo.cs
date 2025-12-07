@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AyisigiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b098f6ffc7b5d62fa95d835dc269854ae07024fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("AyisigiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AyisigiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
