@@ -1,0 +1,85 @@
+<div class="row g-4">
+
+    <!-- Ürün Kartı -->
+    <div class="col-md-3 col-sm-6">
+        <div class="admin-card">
+            <div class="admin-card-icon bg-primary-gradient">
+                <i class="fa-solid fa-box"></i>
+            </div>
+
+            <h6 class="admin-sub">Ürün</h6>
+            <h4 class="admin-title">Toplam</h4>
+
+            <div class="admin-count">
+                @await Component.InvokeAsync("ProductSummary")
+            </div>
+
+            <div class="admin-links">
+                <a asp-controller="Product" asp-action="Index">Ürünler</a>
+                <a asp-controller="Product" asp-action="Create">Yeni Ürün</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kategori Kartı -->
+    <div class="col-md-3 col-sm-6">
+        <div class="admin-card">
+            <div class="admin-card-icon bg-danger-gradient">
+                <i class="fa-solid fa-tags"></i>
+            </div>
+
+            <h6 class="admin-sub">Kategori</h6>
+            <h4 class="admin-title">Sayısı</h4>
+
+            <div class="admin-count">
+                @await Component.InvokeAsync("CategorySummary")
+            </div>
+
+            <div class="admin-links">
+                <a asp-controller="Category" asp-action="Index">Kategoriler</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kullanıcı Kartı -->
+    <div class="col-md-3 col-sm-6">
+        <div class="admin-card">
+            <div class="admin-card-icon bg-info-gradient">
+                <i class="fa-solid fa-users"></i>
+            </div>
+
+            <h6 class="admin-sub">Kullanıcı</h6>
+            <h4 class="admin-title">Toplam</h4>
+
+            <div class="admin-count">
+                @await Component.InvokeAsync("UserSummary")
+            </div>
+
+            <div class="admin-links">
+                <a asp-controller="User" asp-action="Index">Kullanıcılar</a>
+                <a asp-controller="User" asp-action="Create">Yeni Kullanıcı</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sipariş Kartı -->
+    <div class="col-md-3 col-sm-6">
+        <div class="admin-card">
+            <div class="admin-card-icon bg-warning-gradient">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <h6 class="admin-sub">İşlemdeki</h6>
+            <h4 class="admin-title">Sipariş</h4>
+
+            <div class="admin-count">
+                @await Component.InvokeAsync("OrderInProgress")
+            </div>
+
+            <div class="admin-links">
+                <a asp-controller="Order" asp-action="Index">Siparişler</a>
+            </div>
+        </div>
+    </div>
+
+</div>

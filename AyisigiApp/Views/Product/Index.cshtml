@@ -1,0 +1,206 @@
+@using AyisigiApp.Infrastructure.HtmlHelpers
+@model ProductListViewModel
+
+@section Header {
+    <div class="header-banner">
+        <div class="container py-5">
+            @Html.PageTitle("Ürünler", "h1")
+            <p class="lead text-light mt-3">
+                <i class="fa fa-filter text-warning"></i>
+                Kategorilere ve özelliklere göre aradýðýnýz ürünü hemen bulun.
+            </p>
+        </div>
+    </div>
+}
+
+<div class="container-fluid my-5">
+    <div class="row g-4">
+
+        <!-- ========== SOL PANEL ========== -->
+        <div class="col-lg-3">
+            <div class="filter-card shadow-lg">
+
+                <div class="filter-header">
+                    <h5><i class="fa fa-sliders-h me-2"></i> Filtreler</h5>
+                </div>
+
+                <div class="filter-body">
+
+                    <!-- Kategoriler -->
+                    <div class="filter-section">
+                        <h6><i class="fa fa-list text-warning me-2"></i>Kategoriler</h6>
+                        <div class="filter-content">
+                            @await Component.InvokeAsync("CategoriesMenu")
+                        </div>
+                    </div>
+
+                    <!-- Özellikler -->
+                    <div class="filter-section">
+                        <h6><i class="fa fa-funnel-dollar text-warning me-2"></i> Özellikler</h6>
+                        <div class="filter-content">
+                            @await Component.InvokeAsync("ProductFilterMenu")
+                        </div>
+                    </div>
+
+                    <!-- Son Eklenenler -->
+                    <div class="filter-section pt-3 border-top border-secondary">
+                        <h6><i class="fa fa-clock text-warning me-2"></i> Son Eklenenler</h6>
+                        <div products number="3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== SAÐ PANEL (ÜRÜNLER) ========== -->
+        <div class="col-lg-9">
+
+            <div class="products-header shadow-sm mb-4">
+                <div>
+                    <h3 class="text-light mb-1">
+                        <i class="fa fa-box text-warning"></i> Ürün Listesi
+                    </h3>
+                    <span class="text-muted fs-6">
+                        Toplam <b class="text-warning">@Model.Products.Count()</b> ürün bulundu.
+                    </span>
+                </div>
+
+                <div>
+                    <span class="badge bg-warning text-dark fs-6">
+                        <i class="fa fa-check-circle"></i> Stok Durumu Uygun
+                    </span>
+                </div>
+            </div>
+
+            <!-- Ürün Kartlarý -->
+            @if (Model.Products.Any())
+            {
+                <div class="row g-4">
+                    @foreach (var prd in Model.Products)
+                    {
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="product-card shadow-lg">
+                                <div class="product-body">
+                                    <partial name="_ProductCard" model="prd" />
+                                </div>
+
+                                <div class="product-footer">
+                                    <a href="@Url.Action("Get", "Product", new { id = prd.ProductId })"
+                                       class="btn btn-warning w-100">
+                                        <i class="fa fa-eye"></i> Detaylarý Gör
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-warning mt-3">
+                    <i class="fa fa-exclamation-circle"></i> Aradýðýnýz kriterlere uygun ürün bulunamadý.
+                </div>
+            }
+
+            <!-- SAYFALAMA -->
+            @if (Model.Pagination.TotalPages > 1)
+            {
+                <div class="pagination-wrapper mt-5">
+                    <div page-model="@Model.Pagination"
+                         page-action="Index"
+                         page-classes-enabled="true"
+                         page-class="page-btn"
+                         page-class-normal="btn-outline-warning"
+                         page-class-selected="btn-warning text-dark"
+                         class="btn-group">
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+<style>
+
+    /* ===== HEADER BÖLÜMÜ ===== */
+    .header-banner {
+        background: linear-gradient(135deg, #121212 0%, #1f1f1f 100%);
+        border-bottom: 2px solid #ffc10733;
+        text-shadow: 0 2px 6px rgba(0,0,0,.6);
+    }
+
+    /* ===== SOL PANEL ===== */
+    .filter-card {
+        background: #1b1b1b;
+        border-radius: 12px;
+        border: 1px solid #2c2c2c;
+    }
+
+    .filter-header {
+        background: #ffc107;
+        padding: 14px 18px;
+        color: #1b1b1b;
+        font-weight: 600;
+    }
+
+    .filter-body {
+        padding: 20px;
+    }
+
+    .filter-section {
+        margin-bottom: 25px;
+    }
+
+    .filter-content {
+        border-left: 3px solid #ffc107;
+        padding-left: 12px;
+        margin-top: 8px;
+    }
+
+    /* ===== ÜRÜN BAÞLIÐI ===== */
+    .products-header {
+        padding: 18px 25px;
+        background: #1a1a1a;
+        border-left: 4px solid #ffc107;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* ===== ÜRÜN KARTLARI ===== */
+    .product-card {
+        background: #1c1c1c;
+        border-radius: 14px;
+        border: 1px solid #2c2c2c;
+        overflow: hidden;
+        transition: all .25s ease-in-out;
+        height: 100%;
+    }
+
+        .product-card:hover {
+            transform: translateY(-6px);
+            border-color: #ffc107;
+            box-shadow: 0 8px 22px rgba(255, 193, 7, 0.25);
+        }
+
+    .product-footer {
+        background: #111;
+        padding: 12px;
+        border-top: 1px solid #2a2a2a;
+    }
+
+    /* ===== SAYFALAMA ===== */
+    .pagination-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-btn {
+        margin: 0 4px;
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+</style>

@@ -1,0 +1,74 @@
+<div class="filter-box my-3">
+
+    <h5 class="filter-title mb-3">
+        <i class="fa fa-filter text-warning me-2"></i>
+        Filtrele
+    </h5>
+
+    <form method="get" asp-action="Index">
+
+        <!-- Seçili kategori korunur -->
+        <input type="hidden" name="categoryId" value="@(Context.Request.Query["categoryId"])" />
+
+        <!-- Arama -->
+        <div class="mb-3">
+            <label class="form-label text-light">Arama</label>
+            <input class="form-control filter-input"
+                   name="SearchTerm"
+                   placeholder="Ürün adý ara..." />
+        </div>
+
+        <!-- Min Fiyat -->
+        <div class="mb-3">
+            <label class="form-label text-light">Minimum Fiyat</label>
+            <input class="form-control filter-input"
+                   name="MinPrice"
+                   placeholder="?0" />
+        </div>
+
+        <!-- Max Fiyat -->
+        <div class="mb-3">
+            <label class="form-label text-light">Maksimum Fiyat</label>
+            <input class="form-control filter-input"
+                   name="MaxPrice"
+                   placeholder="?500.000" />
+        </div>
+
+        <!-- Buton -->
+        <div class="d-grid mt-4">
+            <button type="submit" class="btn btn-warning text-dark fw-bold py-2">
+                <i class="fa fa-search me-1"></i> Uygula
+            </button>
+        </div>
+
+    </form>
+</div>
+
+<style>
+    .filter-box {
+        background: #1b1b1b;
+        border-radius: 12px;
+        padding: 20px;
+        border: 1px solid #2d2d2d;
+        box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    }
+
+    .filter-title {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .filter-input {
+        background: #111;
+        border: 1px solid #2d2d2d;
+        color: #eee;
+        border-radius: 8px;
+        padding: 10px;
+        transition: .2s;
+    }
+
+        .filter-input:focus {
+            border-color: #ffc107;
+            box-shadow: 0 0 6px rgba(255, 193, 7, 0.3);
+        }
+</style>

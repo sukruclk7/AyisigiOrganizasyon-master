@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ayışığı - @ViewData["Title"]</title>
+
+    <!-- BOOTSTRAP -->
+    <link asp-append-version="true" rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- FONTAWESOME -->
+    <link asp-append-version="true" rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+
+    <!-- SITE CSS -->
+    <link asp-append-version="true" rel="stylesheet" href="~/css/site.css" />
+
+    <!-- DATATABLES CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
+
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+</head>
+
+
+<body class="bg-dark text-light">
+
+    <!-- HEADER -->
+    <header>
+        <partial name="_Navbar" />
+        @RenderSection("Header", false)
+    </header>
+
+
+    <!-- MAIN -->
+    <div class="container my-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="mt-4">
+        @RenderSection("Footer", false)
+        <partial name="_Footer" />
+    </footer>
+
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script asp-append-version="true" src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SITE JS -->
+    <script asp-append-version="true" src="~/js/site.js"></script>
+
+    <!-- FONTAWESOME -->
+    <script asp-append-version="true" src="~/lib/font-awesome/js/all.min.js"></script>
+
+    <!-- JQUERY VALIDATION (Client-side Validation için zorunlu) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+
+    <!-- DATATABLES -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+
+    <!-- SWEETALERT2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- EXTRA SCRIPTS -->
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+@* ADMIN PANEL - Sadece Admin kullanıcıya görünür *@
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <li class="nav-item">
+        <a class="nav-link admin-btn"
+           asp-area="Admin"
+           asp-controller="Dashboard"
+           asp-action="Index">
+            <i class="fa-solid fa-gear"></i>
+            Yönetim
+        </a>
+    </li>
+}
+
+@* Kullanıcı giriş yapmışsa *@
+@if (User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a class="nav-link nav-auth"
+           asp-controller="Account"
+           asp-action="Logout"
+           asp-route-returnUrl="@Context.Request.PathAndQuery()">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Çıkış Yap
+        </a>
+    </li>
+}
+else
+{
+    @* Kullanıcı giriş yapmamışsa *@
+    <li class="nav-item">
+        <a class="nav-link nav-auth"
+           asp-controller="Account"
+           asp-action="Login"
+           asp-route-returnUrl="@Context.Request.PathAndQuery()">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Giriş Yap
+        </a>
+    </li>
+}

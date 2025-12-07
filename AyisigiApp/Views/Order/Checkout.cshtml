@@ -1,0 +1,93 @@
+@model Order
+
+<div class="checkout-container">
+
+    <h2 class="text-center text-light mb-4">
+        <i class="fa fa-file-invoice text-warning"></i> Sipariş Bilgileri
+    </h2>
+
+    <div class="card checkout-card shadow-lg">
+        <div class="card-body">
+
+            <div class="text-danger mb-3" asp-validation-summary="All"></div>
+
+            <form method="post" asp-action="Checkout">
+
+                <!-- Çift Adı -->
+                <div class="form-group mb-3">
+                    <label class="form-label text-light" asp-for="Name">Çift Adı & Soyadı</label>
+                    <input class="form-control custom-input" asp-for="Name" />
+                </div>
+
+                <!-- Adres Satırı 1 -->
+                <div class="form-group mb-3">
+                    <label class="form-label text-light" asp-for="Line1">Adres Satırı 1</label>
+                    <input class="form-control custom-input" asp-for="Line1" />
+                </div>
+
+                <!-- Adres Satırı 2 -->
+                <div class="form-group mb-3">
+                    <label class="form-label text-light" asp-for="Line2">Adres Satırı 2</label>
+                    <input class="form-control custom-input" asp-for="Line2" />
+                </div>
+
+                <!-- Adres Satırı 3 -->
+                <div class="form-group mb-3">
+                    <label class="form-label text-light" asp-for="Line3">Adres Satırı 3</label>
+                    <input class="form-control custom-input" asp-for="Line3" />
+                </div>
+
+                <!-- Şehir -->
+                <div class="form-group mb-3">
+                    <label class="form-label text-light" asp-for="City">Şehir</label>
+                    <input class="form-control custom-input" asp-for="City" />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning fw-bold px-4 py-2">
+                        <i class="fa fa-check-circle"></i> Siparişi Tamamla
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+<style>
+    .checkout-container {
+        max-width: 650px;
+        margin: auto;
+        padding: 40px 15px;
+    }
+
+    .checkout-card {
+        background: #1b1b1b;
+        border-radius: 16px;
+        border: 1px solid #333;
+        padding: 25px;
+    }
+
+    .custom-input {
+        background: #111 !important;
+        color: #eee !important;
+        border: 1px solid #2c2c2c !important;
+        border-radius: 8px !important;
+    }
+
+        .custom-input:focus {
+            border-color: #ffc107 !important;
+            box-shadow: 0 0 6px rgba(255,193,7,0.35) !important;
+        }
+
+    .form-label {
+        font-weight: 600;
+    }
+
+    button.btn-warning {
+        border-radius: 10px;
+        font-size: 1.1rem;
+    }
+</style>

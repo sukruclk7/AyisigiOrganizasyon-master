@@ -1,0 +1,115 @@
+@model IEnumerable<IdentityUser>
+
+<div class="text-center my-5 pb-3 border-bottom">
+    <h2 class="fw-bold">Kullanıcı Yönetimi</h2>
+    <p class="text-muted">Sistemde kayıtlı tüm kullanıcıların listesi</p>
+</div>
+
+<div class="d-flex justify-content-end mb-3">
+    <a asp-action="Create" class="btn btn-success shadow-sm">
+        <i class="fa fa-plus"></i> Yeni Kullanıcı
+    </a>
+</div>
+
+<div class="table-wrapper">
+    <table class="custom-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Kullanıcı Adı</th>
+                <th>Roller</th>
+                <th style="width: 260px;">İşlemler</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+
+                    <!-- Roller AJAX ile dolduruluyor -->
+                    <td user-name="@user.UserName" user-role=""></td>
+
+                    <td>
+                        <div class="btn-group d-flex gap-1">
+
+                            <a class="btn btn-warning"
+                               asp-action="Update"
+                               asp-route-id="@user.UserName">
+                                <i class="fa fa-edit"></i> Düzenle
+                            </a>
+
+                            <a class="btn btn-info text-white"
+                               asp-action="ResetPassword"
+                               asp-route-id="@user.UserName">
+                                <i class="fa fa-key"></i> Şifre
+                            </a>
+
+                            <form method="post" asp-action="DeleteOneUser" onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                                <input type="hidden" name="UserName" value="@user.UserName" />
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="fa fa-trash"></i> Sil
+                                </button>
+                            </form>
+
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Genel tablo container */
+    .table-wrapper {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+    }
+
+        .custom-table thead {
+            background: #f8f9fa;
+        }
+
+        .custom-table th {
+            padding: 0.9rem;
+            text-align: left;
+            font-weight: 700;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .custom-table td {
+            padding: 0.85rem;
+            border-bottom: 1px solid #f1f1f1;
+            vertical-align: middle;
+            color: #333;
+        }
+
+        .custom-table tbody tr:hover {
+            background: #f7f9fc;
+            transition: 0.2s ease;
+        }
+
+    /* Butonlar */
+    .btn-group .btn {
+        font-size: 0.85rem;
+        padding: 0.45rem 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+    }
+
+    
+
+    }</style>

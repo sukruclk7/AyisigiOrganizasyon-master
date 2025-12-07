@@ -1,0 +1,144 @@
+@model RegisterDto
+
+<div class="register-wrapper">
+
+    <div class="register-card shadow-lg">
+
+        <div class="text-center mb-4">
+            <div class="register-icon">
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <h2 class="register-title">Kayıt Ol</h2>
+            <p class="register-sub">Yeni hesabınızı oluşturun</p>
+        </div>
+
+        <div class="text-danger" asp-validation-summary="All"></div>
+
+        <form method="post" asp-action="Register">
+
+            <div class="form-group mb-3">
+                <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+                <input asp-for="UserName" class="form-control register-input" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label">E-mail</label>
+                <input asp-for="Email" class="form-control register-input" />
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Password" class="form-label">Şifre</label>
+                <input type="password" asp-for="Password" class="form-control register-input" />
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn register-btn">
+                    <i class="fa-solid fa-user-plus me-2"></i>
+                    Kayıt Ol
+                </button>
+            </div>
+
+        </form>
+
+        <div class="text-center mt-4 register-login">
+            Zaten hesabınız var mı?
+            <a asp-action="Login">Giriş Yap</a>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .register-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem;
+    }
+
+    .register-card {
+        background: rgba(20, 20, 20, 0.85);
+        padding: 2.5rem;
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 430px;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 215, 120, 0.2);
+    }
+
+    .register-icon {
+        background: #f8f9fa;
+        color: #111;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        box-shadow: 0 4px 12px rgba(255, 208, 118, 0.25);
+    }
+
+    .register-title {
+        color: #f8f9fa;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+
+    .register-sub {
+        color: #bfbfbf;
+        font-size: 0.95rem;
+    }
+
+    .form-label {
+        color: #f1f1f1;
+        font-weight: 500;
+    }
+
+    .register-input {
+        background: #1c1c1c;
+        border: 1px solid #333;
+        color: white;
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        transition: all .25s ease;
+    }
+
+        .register-input:focus {
+            border-color: #AF8A49;
+            box-shadow: 0 0 8px rgba(175, 138, 73, 0.5);
+        }
+
+    .register-btn {
+        background: linear-gradient(135deg, #AF8A49, #d8b765);
+        border: none;
+        padding: 0.7rem 2rem;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        color: #111;
+        transition: 0.3s ease;
+    }
+
+        .register-btn:hover {
+            background: linear-gradient(135deg, #d8b765, #AF8A49);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(175, 138, 73, 0.4);
+        }
+
+    .register-login {
+        color: #ccc;
+        margin-top: 1.2rem;
+    }
+
+        .register-login a {
+            color: #f7d791;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+            .register-login a:hover {
+                color: #ffe8b3;
+                text-decoration: underline;
+            }
+</style>

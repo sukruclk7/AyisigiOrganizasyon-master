@@ -1,0 +1,130 @@
+@model IEnumerable<Order>
+
+<div class="text-center my-5 pb-3 border-bottom">
+    <h2 class="fw-bold">Siparişler</h2>
+    <p class="text-muted">Sistemde oluşturulmuş tüm siparişlerin listesi</p>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <div class="order-grid">
+        @foreach (var order in Model)
+        {
+            <div class="order-card">
+                <div class="order-card-header">
+                    <div>
+                        <span class="order-id">Sipariş #@order.OrderId</span>
+                    </div>
+                    <div class="order-pill">
+                        Aktif Kayıt
+                    </div>
+                </div>
+
+                <div class="order-card-body">
+                    @* Var olan detay tasarımını koruyalım *@
+                    <partial name="_OrderDetails" model="order" />
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="order-empty">
+        <i class="fa fa-box-open"></i>
+        <h4>Henüz sipariş bulunmuyor</h4>
+        <p class="text-muted">
+            Müşterileriniz sipariş oluşturduğunda bu alanda listelenecektir.
+        </p>
+    </div>
+}
+
+<style>
+    /* Ana grid */
+    .order-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    /* Kart */
+    .order-card {
+        background: #ffffff;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+        overflow: hidden;
+        transition: all 0.25s ease;
+    }
+
+        .order-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.15);
+            border-color: #d1d5db;
+        }
+
+    /* Header */
+    .order-card-header {
+        padding: 0.9rem 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(90deg, #f9fafb 0%, #f3f4f6 100%);
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .order-id {
+        font-weight: 700;
+        color: #111827;
+        font-size: 0.95rem;
+    }
+
+    .order-pill {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 0.25rem 0.75rem;
+        border-radius: 999px;
+        background: #e0f2fe;
+        color: #0369a1;
+        border: 1px solid #bae6fd;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+    }
+
+    /* Body */
+    .order-card-body {
+        padding: 1.1rem 1.3rem 1.3rem 1.3rem;
+        font-size: 0.92rem;
+        color: #374151;
+    }
+
+    /* Boş durum */
+    .order-empty {
+        text-align: center;
+        padding: 3rem 1rem;
+        border-radius: 12px;
+        border: 1px dashed #d1d5db;
+        background: #f9fafb;
+        margin-bottom: 3rem;
+    }
+
+        .order-empty i {
+            font-size: 3rem;
+            color: #cbd5f5;
+            margin-bottom: 0.75rem;
+        }
+
+        .order-empty h4 {
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 0.4rem;
+        }
+
+        .order-empty p {
+            margin: 0;
+        }
+
+   
+
+    }</style>

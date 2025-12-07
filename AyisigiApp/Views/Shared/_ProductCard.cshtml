@@ -1,0 +1,127 @@
+@model Product
+
+<div class="product-card shadow-lg">
+
+    <!-- Ürün Görseli -->
+    <div class="product-image-wrapper">
+        <img src="@Model?.ImageUrl" alt="@Model.ProductName" class="product-image" />
+    </div>
+
+    <!-- Ürün Baþlýk -->
+    <div class="card-body text-center p-3">
+
+        <h5 class="product-title mb-2">
+            @Model.ProductName
+        </h5>
+
+        <!-- Fiyat -->
+        <div class="product-price mb-3">
+            @Model?.ProductPrice.ToString("C2")
+        </div>
+
+        <!-- Kýsa açýklama -->
+        <p class="text-muted small mb-4">
+            @Model?.Summary
+        </p>
+
+        <!-- Butonlar -->
+        <div class="d-flex justify-content-center gap-2">
+
+            <!-- Detay Gör -->
+            <a asp-controller="Product"
+               asp-action="Get"
+               asp-route-id="@Model.ProductId"
+               class="btn btn-outline-warning product-btn">
+                <i class="fa-regular fa-eye"></i>
+            </a>
+
+            <!-- Sepete Ekle -->
+            <form id="@Model.ProductId" asp-page="/cart" method="post">
+                <input type="hidden" asp-for="ProductId" />
+                <input type="hidden"
+                       name="returnUrl"
+                       value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+
+                <button type="submit" class="btn btn-warning product-btn">
+                    <i class="fa fa-cart-plus"></i>
+                </button>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+<style>
+    /* === PRODUCT CARD === */
+    .product-card {
+        border-radius: 14px;
+        background: #181818;
+        border: 1px solid #2a2a2a;
+        overflow: hidden;
+        transition: all .3s ease;
+        height: 100%;
+    }
+
+        .product-card:hover {
+            transform: translateY(-6px);
+            border-color: #ffc107;
+            box-shadow: 0 10px 25px rgba(255, 193, 7, 0.25);
+        }
+
+    /* === IMAGE === */
+    .product-image-wrapper {
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        background: #111;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .4s ease;
+    }
+
+    .product-card:hover .product-image {
+        transform: scale(1.08);
+        filter: brightness(1.15);
+    }
+
+    /* === TITLE === */
+    .product-title {
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: .4px;
+    }
+
+    /* === PRICE === */
+    .product-price {
+        background: #ffc107;
+        color: #111;
+        padding: 6px 12px;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
+    }
+
+    /* === BUTTONS === */
+    .product-btn {
+        width: 48px;
+        height: 42px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        transition: all .3s ease;
+    }
+
+        .product-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(255, 193, 7, 0.25);
+        }
+</style>

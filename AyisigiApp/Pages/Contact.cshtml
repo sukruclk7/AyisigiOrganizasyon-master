@@ -1,0 +1,145 @@
+@page
+@model dynamic
+@{
+    ViewData["Title"] = "Hakkımızda";
+}
+
+<div class="team-wrapper">
+
+    <h2 class="team-title text-center">Ayışığı Organizasyon</h2>
+    <p class="team-sub text-center">
+        Etkinlik ve organizasyon sektöründe yenilikçi, modern ve profesyonel çözümler sunuyoruz.
+    </p>
+
+    <div class="team-grid">
+
+        <!-- Şükrü Çelik -->
+        <div class="team-card">
+            <div class="icon-wrapper">
+                <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <h4 class="team-name">Şükrü Çelik</h4>
+            <p class="team-role">Proje Koordinatörü</p>
+            <p class="team-desc">
+                Organizasyon planlama, süreç yönetimi ve müşteri ilişkileri alanlarında operasyonel
+                koordinasyonu sağlamaktadır.
+            </p>
+        </div>
+
+        <!-- Tunahan Ata -->
+        <div class="team-card">
+            <div class="icon-wrapper">
+                <i class="fa-solid fa-user-gear"></i>
+            </div>
+            <h4 class="team-name">Tunahan Ata</h4>
+            <p class="team-role">Teknik Operasyon Sorumlusu</p>
+            <p class="team-desc">
+                Etkinliklerin teknik altyapıları (ses, ışık, sahne) ve ekipman süreçleri Tunahan tarafından yönetilmektedir.
+            </p>
+        </div>
+
+        <!-- Süleyman Toklu -->
+        <div class="team-card">
+            <div class="icon-wrapper">
+                <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <h4 class="team-name">Süleyman Toklu</h4>
+            <p class="team-role">Operasyon Destek</p>
+            <p class="team-desc">
+                Organizasyon süreçlerinde saha operasyonları, lojistik destek ve uygulama aşamalarında aktif görev almaktadır.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Kurumsal iletişim -->
+    <div class="contact-box">
+        <h5>İletişim</h5>
+        <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+        <p><strong>Telefon:</strong> +90 555 123 45 67</p>
+        <p><strong>E-posta:</strong> info@ayisigiorganizasyon.com</p>
+    </div>
+
+</div>
+
+<style>
+    .team-wrapper {
+        padding: 3rem 1rem;
+        color: #f5f5f5;
+    }
+
+    .team-title {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .team-sub {
+        color: #ccc;
+        margin-bottom: 3rem;
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .team-card {
+        background: rgba(20,20,20,0.85);
+        border: 1px solid rgba(255,215,120,0.25);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+        backdrop-filter: blur(6px);
+        transition: .3s ease;
+        min-height: 350px;
+    }
+
+        .team-card:hover {
+            transform: translateY(-6px);
+            border-color: #f0d08a;
+            box-shadow: 0 8px 20px rgba(255,215,120,0.3);
+        }
+
+    .icon-wrapper {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #f0d08a;
+        filter: drop-shadow(0 2px 6px rgba(255,215,120,0.3));
+    }
+
+    .team-name {
+        font-weight: 700;
+        margin-bottom: .2rem;
+    }
+
+    .team-role {
+        color: #c7b27a;
+        margin-bottom: .8rem;
+        font-size: .95rem;
+    }
+
+    .team-desc {
+        color: #ddd;
+        font-size: .85rem;
+        line-height: 1.4rem;
+    }
+
+    .contact-box {
+        margin-top: 3rem;
+        background: rgba(255,215,120,0.1);
+        border: 1px solid rgba(255,215,120,0.2);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+        .contact-box h5 {
+            color: #f0d08a;
+            margin-bottom: .8rem;
+            font-size: 1.2rem;
+        }
+</style>

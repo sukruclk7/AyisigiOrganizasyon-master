@@ -1,0 +1,97 @@
+@page
+
+<div class="thankyou-container">
+
+    <div class="thankyou-card shadow-lg">
+
+        <div class="icon-wrapper">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+
+        <h2 class="thankyou-title">Siparişiniz Alındı!</h2>
+
+        <p class="thankyou-text">
+            En özel gününüz için hazırlıklar başladı.
+            Sizin için en iyisini hazırlayacağız.
+        </p>
+
+        <div class="order-box">
+            <span>Sipariş Numaranız:</span>
+            <strong>#@OrderId</strong>
+        </div>
+
+        <p class="info-text">
+            Siparişiniz belirtilen tarihte eksiksiz hazırlanacaktır.
+        </p>
+
+        <a class="btn btn-warning mt-3 fw-bold px-4" asp-controller="Home" asp-action="Index">
+            Mağazaya Dön
+        </a>
+
+    </div>
+</div>
+
+@functions {
+    [BindProperty(SupportsGet = true)]
+    public string? OrderId { get; set; }
+}
+
+<style>
+    .thankyou-container {
+        display: flex;
+        justify-content: center;
+        padding: 50px 15px;
+    }
+
+    .thankyou-card {
+        background: #1b1b1b;
+        border-radius: 18px;
+        padding: 40px 30px;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #2d2d2d;
+    }
+
+    .icon-wrapper {
+        font-size: 70px;
+        color: #ffc107;
+        margin-bottom: 15px;
+    }
+
+    .thankyou-title {
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .thankyou-text {
+        color: #cccccc;
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+    }
+
+    .order-box {
+        background: #111;
+        border: 1px solid #ffc10755;
+        padding: 15px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        color: #e6e6e6;
+        font-size: 1.15rem;
+    }
+
+        .order-box strong {
+            color: #ffc107;
+            font-size: 1.25rem;
+            margin-left: 6px;
+        }
+
+    .info-text {
+        color: #bbbbbb;
+    }
+
+    .btn-warning {
+        border-radius: 10px;
+    }
+</style>
