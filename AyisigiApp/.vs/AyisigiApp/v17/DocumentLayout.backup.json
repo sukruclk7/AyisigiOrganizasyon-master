@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\categoriesmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\categoriesmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\_showcasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\_showcasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\productfiltermenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\productfiltermenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\components\\cartsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:components\\cartsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\components\\productsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:components\\productsummaryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\components\\productfiltermenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:components\\productfiltermenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\infrastructure\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:infrastructure\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\infrastructure\\extensions\\httprequestextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:infrastructure\\extensions\\httprequestextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\infrastructure\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:infrastructure\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,28 +122,12 @@
       "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\wwwroot\\images\\mainfoto.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:wwwroot\\images\\mainfoto.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\_showcasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\_showcasecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\shared\\components\\showcase\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|solutionrelative:views\\shared\\components\\showcase\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DBF053-C34F-4DDF-8FCD-AFF3D17A9A54}|AyisigiApp.csproj|c:\\users\\celik\\source\\repos\\ayisigiorganizasyon-master\\ayisigiapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -69,24 +141,270 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ProductCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\_ProductCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ProductCard.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\_ProductCard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ProductCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:37:31.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\ProductFilterMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:32:40.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwDIAAAAKAAAAAAAAAA==",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\CategoriesMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:32:31.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartSummaryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\CartSummaryViewComponent.cs",
+              "RelativeDocumentMoniker": "Components\\CartSummaryViewComponent.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\CartSummaryViewComponent.cs",
+              "RelativeToolTip": "Components\\CartSummaryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T13:45:39.402Z",
+              "WhenOpened": "2025-12-27T17:32:17.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductSummaryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\ProductSummaryViewComponent.cs",
+              "RelativeDocumentMoniker": "Components\\ProductSummaryViewComponent.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\ProductSummaryViewComponent.cs",
+              "RelativeToolTip": "Components\\ProductSummaryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:32:14.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductFilterMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\ProductFilterMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "Components\\ProductFilterMenuViewComponent.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Components\\ProductFilterMenuViewComponent.cs",
+              "RelativeToolTip": "Components\\ProductFilterMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:32:08.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ShowcaseCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:25:06.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\List.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\List.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:24:34.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Get.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Product\\Get.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Get.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Product\\Get.cshtml",
+              "RelativeToolTip": "Views\\Product\\Get.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAIkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:25:14.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T11:24:17.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAqwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:25:23.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T17:25:40.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\ApplicationExtension.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions\\ApplicationExtension.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\ApplicationExtension.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions\\ApplicationExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:23:58.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HttpRequestExtension.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\HttpRequestExtension.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions\\HttpRequestExtension.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\HttpRequestExtension.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions\\HttpRequestExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:23:56.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "Infrastructure\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:23:46.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:23:09.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:23:06.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:22:04.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T16:30:55.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T13:45:39.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "AyisigiApp.csproj",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\AyisigiApp.csproj",
               "RelativeDocumentMoniker": "AyisigiApp.csproj",
@@ -98,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\Presentation\\Program.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\Program.cs",
@@ -110,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Index.cshtml",
@@ -122,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -134,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 27,
               "Title": "_Cards.cshtml",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Dashboard\\_Cards.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\_Cards.cshtml",
@@ -146,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -158,19 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T13:55:38.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
@@ -182,7 +488,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T16:30:49.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T16:30:51.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T13:55:38.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -194,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "mainfoto.png - PNG [2663x1536, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\wwwroot\\images\\mainfoto.png",
               "RelativeDocumentMoniker": "wwwroot\\images\\mainfoto.png",
@@ -206,43 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ShowcaseCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
-              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\_ShowcaseCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T11:25:06.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\List.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\List.cshtml",
-              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\List.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T11:24:34.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
-              "ToolTip": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Shared\\Components\\Showcase\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\Showcase\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-06T11:24:17.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\celik\\source\\repos\\AyisigiOrganizasyon-master\\AyisigiApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
